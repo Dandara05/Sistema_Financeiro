@@ -1,0 +1,21 @@
+form{
+    margin-top: 20%;
+}
+
+.fa-solid{
+    font-size: 100px;
+    color: white;
+}
+
+body{
+    background-color: #6959CD;
+}
+
+.form-label{
+    color: white;
+    font-size: 20px;
+}
+
+.btn{
+    width: 40%;
+}
