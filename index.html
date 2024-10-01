@@ -17,17 +17,22 @@
           </div>
           <div class="col-sm-12 col-md-4" style="margin-top: 10%;">
             <i class="fa-solid fa-coins"></i>
-            <form>
+            <form action="php/insert_usuario.php" method="post">
+                  <h1 id="h1_cad_user">Cadastro de Usuário</h1>
+              <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" name="nome" aria-describedby="emailHelp">
+              </div>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label">Senha</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <input type="password" class="form-control" id="Senha" name="Senha">
                 </div>
                 <button type="submit" class="btn btn-primary">Entrar</button>
-                <a type="submit" class="btn btn-primary">Cadastrar</a>
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
               </form>
           </div>
           <div class="col-sm-12 col-md-4">
