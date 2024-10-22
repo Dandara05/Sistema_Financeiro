@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+        }
+ 
+        .container {
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+ 
+        h1 {
+            margin-bottom: 20px;
+        }
+ 
+        .button {
+            display: block;
+            width: 200px;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: #003cff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+ 
+        .button:hover {
+            background-color: #003cff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Seja bem-vindo!</h1>
+        <button class="button" onclick="cadastrarCategorias()">Cadastrar Categorias</button>
+        <button class="button" onclick="entrar()">Entrar</button>
+    </div>
+ 
+    <script>
+        function cadastrarCategoria() {
+            window.location.href = 'cadastrar_categorias.html'; // Substituir com a URL real
+        }
+ 
+        function entrar() {
+            window.location.href = 'entrar.html'; // Substituir com a URL real
+        }
+    </script>
+</body>
+</html>
